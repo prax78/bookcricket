@@ -1,0 +1,69 @@
+.btnclass {
+    visibility: visible;
+    background-image: url("./bookbutton.png");
+    height: 50px;
+    width: 50px;
+    border-color: blueviolet;
+    color: brown;
+    font-weight: bold;
+}
+
+.btnresume {
+    visibility: hidden;
+    background-image: url("./play48.png");
+    height: 30px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.btndiv {
+    height: 50px;
+    width: auto;
+}
+
+.btnclear {
+    background-image: url("./clean.png");
+    height: 60px;
+    width: 60px;
+    border-color: blueviolet;
+    color: brown;
+    font-weight: bold;
+}
+
+h1 {
+    color: antiquewhite;
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 2px;
+}
+
+.bodyclass {
+    font-family: 'Open Sans', sans-serif;
+    background-color: darkmagenta;
+}
+
+#main {
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: groove;
+    border-color: rgb(211, 33, 217);
+    background-color: black;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.sectionclass {
+    color: wheat;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+a:visited,
+a:hover {
+    color: antiquewhite;
+}
+
+.footer {
+    color: antiquewhite;
+}

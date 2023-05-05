@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<title>CricketAppScorer</title>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans:ital,wght@1,400;1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="./main.css" rel="stylesheet" content-type="text/css">
+
+</head>
+
+<body class="bodyclass" onload="defaultdisplay()">
+    <div style="padding-left: 5px;">
+        <h1> Book Cricket App</h2>
+    </div>
+    <div id="main">
+
+        <div class="btndiv">
+            <label for="btnaction">Click the button to flip pages!!</label>
+            <button onclick="selectrandom()" id="btnaction" class="btnclass">Flip!!</button>
+        </div>
+
+        <div class="btndiv">
+
+            <button onclick="resume()" id="btnresume" class="btnresume">Next Player</button>
+        </div>
+        <div>
+            <p id="display"></p>
+        </div>
+
+        <div>
+            <p id="lastscore"></p>
+        </div>
+        <div>
+            <p id="lastscoretwo"></p>
+        </div>
+        <div>
+            <label for="btnclear">Clear Previous two scores</label>
+            <button onclick="clearscores()" id="btnclear" class="btnclear">Clear</button>
+        </div>
+    </div>
+    <div>
+        <section class="sectionclass">
+            <p>
+                <font style="text-decoration-line: underline;">About Book Cricket</font>
+                <p><span>Book Cricket was very famous back in 80's and early 90's among Indian kids!!</span></p>
+
+            </p>
+            <p>
+                It was played using the Book, two players can play at the sametime.
+            </p>
+            <p>
+                The first player would flip pages of a book and stop randomly at some page, if the page number is 180, that means the last digit of 180 will be taken into the account, in this case '0' and '0' means a wicket has fallen. Only Even pages are considered
+                for scoring (0,2,4,6,8). The scores will be added to the total untill all 10 wickets have been fallen, in other words if a player recieved 10 ZEROS that means 10 wickets have fallen, and the next player would taken his/her turn.
+
+
+            </p>
+
+            <p>
+                I have tried to re-create this using the app, I hope this would make you happy!!
+            </p>
+
+        </section>
+
+        <footer class="footer">
+            <a href="https://prakash78blog.wordpress.com/">My Blog</a> &copy; prakash78blog.wordpress.com
+        </footer>
+    </div>
+
+    <script src="./action.js" content-type="text/javascript"></script>
+
+</body>
+
+</html>
